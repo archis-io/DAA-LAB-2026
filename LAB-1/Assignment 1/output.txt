@@ -1,0 +1,8 @@
+--- Q1: Dictionary Search Comparisons Benchmark ---
+Size (N)   | Unsorted Array (Linear)   | Sorted Array (Binary)    
+----------------------------------------------------------------------
+1000       | 1000                      | 10                       
+5000       | 5000                      | 13                       
+10000      | 10000                     | 14                       
+50000      | 50000                     | 16                       
+100000     | 100000                    | 17
