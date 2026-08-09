@@ -1,0 +1,8 @@
+Array Size	Comparisons (Brute Force)	Uniqueness Result
+-----------------------------------------------------------------
+100       	4950                       	Duplicates Found
+500       	124750                     	Duplicates Found
+1000      	499500                     	Duplicates Found
+5000      	12497500                   	Duplicates Found
+
+Conclusion: For large n, Brute Force O(n^2) scales poorly. Sorting-based method O(n log n) is superior.

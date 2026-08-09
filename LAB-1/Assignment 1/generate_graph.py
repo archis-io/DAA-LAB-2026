@@ -1,17 +1,22 @@
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
 
-n = np.array([1000, 5000, 10000, 50000, 100000])
-linear_ops = n
-binary_ops = np.log2(n)
+n = np.linspace(1, 100, 400)
 
-plt.figure(figsize=(7, 4.5))
-plt.plot(n, linear_ops, label="Unsorted Array: Linear Search O(n)", color='crimson', marker='o')
-plt.plot(n, binary_ops, label="Sorted Array: Binary Search O(log n)", color='teal', marker='s')
-plt.title("Q1: Order of Growth - Dictionary Operations")
-plt.xlabel("Input Size (N)")
-plt.ylabel("Key Comparisons")
+plt.figure(figsize=(10, 6))
+plt.plot(n, 1/n, label='1/n')
+plt.plot(n, np.log2(n), label='log2(n)')
+plt.plot(n, 12 * np.sqrt(n), label='12√n')
+plt.plot(n, n**0.51, label='n^0.51')
+plt.plot(n, 100*n, label='100n')
+plt.plot(n, n * np.log2(n), label='n log2(n)')
+plt.plot(n, n**2 - 324, label='n^2 - 324')
+
+plt.yscale('log')
+plt.xlabel('n')
+plt.ylabel('f(n) (Log Scale)')
+plt.title('Comparison of Function Growth Rates')
 plt.legend()
 plt.grid(True)
-plt.tight_layout()
-plt.savefig("Order_of_growth.png")
+plt.savefig('order_of_growth.png')
+plt.show()

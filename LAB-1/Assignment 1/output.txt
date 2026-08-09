@@ -1,8 +1,14 @@
---- Q1: Dictionary Search Comparisons Benchmark ---
-Size (N)   | Unsorted Array (Linear)   | Sorted Array (Binary)    
-----------------------------------------------------------------------
-1000       | 1000                      | 10                       
-5000       | 5000                      | 13                       
-10000      | 10000                     | 14                       
-50000      | 50000                     | 16                       
-100000     | 100000                    | 17
+--- Functions ordered by increasing growth rate (Theoretical & Computed at n=1000) ---
+
+ 1. 1 / n                (Val at n=1000: 1.000000e-03)
+ 2. 2^32                 (Val at n=1000: 4.294967e+09)
+ 3. log2(n)              (Val at n=1000: 9.965784e+00)
+ 4. 12 * sqrt(n)         (Val at n=1000: 3.794733e+02)
+ 5. 50 * n^0.5           (Val at n=1000: 1.581139e+03)
+ 6. n^0.51               (Val at n=1000: 3.388442e+01)
+ 7. 100 * n              (Val at n=1000: 1.000000e+05)
+ 8. n * log2(n)          (Val at n=1000: 9.965784e+03)
+ 9. 32 * n * log2(n)     (Val at n=1000: 3.189051e+05)
+10. n^2 - 324            (Val at n=1000: 9.996760e+05)
+11. 2 * n^3              (Val at n=1000: 2.000000e+09)
+12. 3^n                  (Val at n=1000: inf)

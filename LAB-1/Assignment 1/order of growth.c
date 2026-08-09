@@ -1,57 +1,35 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 
-// Measure Search in Unsorted Array O(n)
-long long search_unsorted(int arr[], int n, int key) {
-    long long comps = 0;
-    for (int i = 0; i < n; i++) {
-        comps++;
-        if (arr[i] == key) break;
-    }
-    return comps;
-}
-
-// Measure Search in Sorted Array O(log n)
-long long search_sorted(int arr[], int n, int key) {
-    long long comps = 0;
-    int low = 0, high = n - 1;
-    while (low <= high) {
-        comps++;
-        int mid = low + (high - low) / 2;
-        if (arr[mid] == key) return comps;
-        if (arr[mid] < key) low = mid + 1;
-        else high = mid - 1;
-    }
-    return comps;
-}
+typedef struct {
+    char name[30];
+    double value;
+} Function;
 
 int main() {
-    int sizes[] = {1000, 5000, 10000, 50000, 100000};
-    int num_sizes = 5;
+    double n = 1000.0; // Large value of n
 
-    printf("--- Q1: Dictionary Search Order of Growth ---\n");
-    printf("%-10s | %-25s | %-25s\n", "Size (N)", "Unsorted Array O(n)", "Sorted Array O(log n)");
-    printf("----------------------------------------------------------------------\n");
+    Function funcs[] = {
+        {"1 / n", 1.0 / n},
+        {"2^32", pow(2, 32)},
+        {"log2(n)", log2(n)},
+        {"12 * sqrt(n)", 12.0 * sqrt(n)},
+        {"50 * n^0.5", 50.0 * pow(n, 0.5)},
+        {"n^0.51", pow(n, 0.51)},
+        {"100 * n", 100.0 * n},
+        {"n * log2(n)", n * log2(n)},
+        {"32 * n * log2(n)", 32.0 * n * log2(n)},
+        {"n^2 - 324", pow(n, 2) - 324},
+        {"2 * n^3", 2.0 * pow(n, 3)},
+        {"3^n", pow(3, 100)} // Evaluated at large n
+    };
 
-    for (int i = 0; i < num_sizes; i++) {
-        int n = sizes[i];
-        int *sorted_arr = (int *)malloc(n * sizeof(int));
-        int *unsorted_arr = (int *)malloc(n * sizeof(int));
+    int total = sizeof(funcs) / sizeof(funcs[0]);
 
-        for (int j = 0; j < n; j++) {
-            sorted_arr[j] = j * 2;
-            unsorted_arr[j] = rand() % (n * 2);
-        }
-
-        // Worst-case search (element not present)
-        int target_key = -1; 
-        long long lin_comps = search_unsorted(unsorted_arr, n, target_key);
-        long long bin_comps = search_sorted(sorted_arr, n, target_key);
-
-        printf("%-10d | %-25lld | %-25lld\n", n, lin_comps, bin_comps);
-
-        free(sorted_arr);
-        free(unsorted_arr);
+    printf("--- Functions ordered by increasing growth rate (Theoretical & Computed at n=1000) ---\n\n");
+    for (int i = 0; i < total; i++) {
+        printf("%2d. %-20s (Val at n=1000: %e)\n", i + 1, funcs[i].name, funcs[i].value);
     }
+
     return 0;
 }
