@@ -1,0 +1,3 @@
+Binary Search Comparisons: 12
+Ternary Search Comparisons: 16
+Conclusion: Binary search requires fewer comparisons.

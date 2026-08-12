@@ -1,0 +1,2 @@
+Minimum element is 1
+Maximum element is 3000

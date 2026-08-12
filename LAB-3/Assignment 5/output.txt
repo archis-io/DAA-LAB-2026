@@ -1,0 +1,3 @@
+Standard: C1=26, C2=22
+Fast D&C: C1=26, C2=22
+Both match! And we only used 2 multiplications!

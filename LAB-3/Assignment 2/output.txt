@@ -1,0 +1,1 @@
+Defective coin found at index: 3
