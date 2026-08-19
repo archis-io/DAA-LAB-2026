@@ -1,0 +1,1 @@
+Elements found: 6, 8, 10 (Sum = 22)

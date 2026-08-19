@@ -1,0 +1,1 @@
+Point in most intervals: p = 50 (present in 3 intervals)

@@ -1,0 +1,1 @@
+Pair found: 10 from S1 and 2 from S2 (Sum = 12)

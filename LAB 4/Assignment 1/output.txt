@@ -1,0 +1,6 @@
+Color: Red    | Number: 15
+Color: Red    | Number: 25
+Color: Blue   | Number: 10
+Color: Blue   | Number: 30
+Color: Yellow | Number: 20
+Color: Yellow | Number: 35
