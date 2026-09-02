@@ -1,0 +1,1 @@
+Successfully sorted 100 elements from 'input_quick.txt' to 'output_quick.txt'.
