@@ -1,0 +1,9 @@
+================ 2D MATRIX OPERATIONS ================
+Is Zero Matrix: False
+Is Symmetric: True
+Determinant: 8.00
+Dominant Eigenvalue: 3.4142
+Eigenvector: [0.5000 0.7071 0.5000 ]
+Matrix Addition A + B completed.
+Matrix Multiplication A * B completed.
+In-place Transpose completed.

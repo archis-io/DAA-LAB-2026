@@ -1,0 +1,10 @@
+================ 1D ARRAY OPERATIONS ================
+Max Element: 90
+1st & 2nd Max: 90, 89
+Mean: 42.90
+Median: 39.50
+Std Dev: 27.68
+Mode: 12
+Reversed Array: 34 90 12 45 23 89 67 12 45 12 
+Partitioned Array: 67 89 90 45 23 45 12 12 12 34 
+Unique Elements: 12 23 34 45 67 89 90

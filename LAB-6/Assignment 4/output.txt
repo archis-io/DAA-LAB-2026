@@ -1,0 +1,6 @@
+================ SORTING VIA REVERSAL PROCEDURE ================
+Original Permutation: 1 4 3 2 5 
+Sorted Permutation:   1 2 3 4 5 
+
+Total Reversals: 1 (Bounded by O(n))
+Total Cost:      3 (Bounded by O(n log^2 n))
