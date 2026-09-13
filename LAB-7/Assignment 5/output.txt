@@ -1,0 +1,4 @@
+--- QUESTION 5: HITTING A MOVING TARGET ---
+Hiding Spots (n): 5
+Shooting Sequence: 2 3 4 2 3 4 
+Total Shots: 6

@@ -1,0 +1,3 @@
+--- QUESTION 6: THE BEST TIME TO BE ALIVE ---
+Max Scientists Alive Simultaneously: 3
+Peak Year: 1879

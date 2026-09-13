@@ -1,0 +1,3 @@
+--- QUESTION 7: MATRIX CHAIN MULTIPLICATION ---
+Minimum Scalar Multiplications: 26000
+Optimal Parenthesization: ((A1(A2A3))A4)

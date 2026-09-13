@@ -1,0 +1,3 @@
+--- QUESTION 2: SUPER EGG TESTING EXPERIMENT ---
+Eggs: 2, Floors: 100
+Minimum Guaranteed Drops: 14

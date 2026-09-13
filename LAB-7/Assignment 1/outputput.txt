@@ -1,0 +1,4 @@
+--- QUESTION 1: INVERT THE COIN-TRIANGLE ---
+Triangle Height (n): 4
+Total Coins: 10
+Minimum Moves Required: 3
