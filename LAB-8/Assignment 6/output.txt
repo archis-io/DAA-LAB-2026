@@ -1,0 +1,8 @@
+--- QUESTION 6: EDIT DISTANCE WITH TRACEBACK ---
+String 1: SUNDAY
+String 2: SATURDAY
+Minimum Edit Distance: 3
+Traceback Operations:
+  Insert 'R'
+  Insert 'T'
+  Replace 'U' with 'A'

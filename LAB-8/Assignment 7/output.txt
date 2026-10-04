@@ -1,0 +1,4 @@
+--- QUESTION 7: ROD CUTTING WITH RECONSTRUCTION ---
+Rod Length: 8
+Maximum Obtainable Revenue: 22
+Optimal Piece Cuts: 6 2

@@ -1,0 +1,3 @@
+--- QUESTION 1: MINIMUM COIN CHANGE ---
+Target Amount: 11
+Minimum Coins Needed: 3

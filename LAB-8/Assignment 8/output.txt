@@ -1,0 +1,3 @@
+--- QUESTION 8: OPTIMAL BINARY SEARCH TREE ---
+Keys Count: 3
+Minimum Expected Search Cost: 2.7500

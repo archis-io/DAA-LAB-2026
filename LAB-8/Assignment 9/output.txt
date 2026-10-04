@@ -1,0 +1,6 @@
+--- QUESTION 9: COLLATZ CONJECTURE TRAJECTORY ---
+Initial value: 27 | Total Stopping Time: 111 | Peak Value: 9232
+
+--- Interval [1, 100] Analysis ---
+Number with Max Steps (118): 97
+Highest Peak Reached in Range: 9232

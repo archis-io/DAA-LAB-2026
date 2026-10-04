@@ -1,0 +1,5 @@
+--- QUESTION 3: LONGEST COMMON SUBSEQUENCE ---
+String X: AGGTAB
+String Y: GXTXAYB
+LCS Length: 4
+Reconstructed LCS: GTAB

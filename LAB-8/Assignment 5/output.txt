@@ -1,0 +1,2 @@
+--- QUESTION 5: MAXIMUM SUM INCREASING SUBSEQUENCE ---
+Maximum Sum Increasing Subsequence: 106
