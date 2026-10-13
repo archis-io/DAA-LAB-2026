@@ -1,0 +1,3 @@
+--- QUESTION 3: MINIMUM REFUELING STOPS ---
+Target: 100 | Start Fuel: 10
+Minimum Refuel Stops Needed: 2

@@ -1,0 +1,2 @@
+--- QUESTION 4: MINIMUM COST TO CONNECT STICKS ---
+Minimum Connection Cost: 31

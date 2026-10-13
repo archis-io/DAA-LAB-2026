@@ -1,0 +1,7 @@
+--- QUESTION 2: CANONICAL HUFFMAN CODEBOOK ---
+Symbol: f | Length: 1 | Canonical Code: 0
+Symbol: c | Length: 3 | Canonical Code: 100
+Symbol: d | Length: 3 | Canonical Code: 101
+Symbol: e | Length: 3 | Canonical Code: 110
+Symbol: a | Length: 4 | Canonical Code: 1110
+Symbol: b | Length: 4 | Canonical Code: 1111

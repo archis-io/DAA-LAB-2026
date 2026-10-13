@@ -1,0 +1,3 @@
+--- QUESTION 6: REORGANIZE STRING K-DISTANCE APART ---
+Original String: aabbcc | K = 3
+Rearranged String (K = 3): abcabc

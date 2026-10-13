@@ -1,0 +1,2 @@
+--- QUESTION 5: CANDY DISTRIBUTION PROBLEM ---
+Minimum Total Candies Required: 5

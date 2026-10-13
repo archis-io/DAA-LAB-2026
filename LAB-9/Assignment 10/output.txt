@@ -1,0 +1,3 @@
+--- QUESTION 10: GREEDY SUPERSTRING CONJECTURE ---
+Resulting Shortest Superstring: GCTAAGTTCATGCATC
+Length: 16

@@ -1,0 +1,2 @@
+--- QUESTION 9: HU-TUCKER GREEDY SIMULATION ---
+Total Weighted Path Length Sum: 230
