@@ -1,0 +1,7 @@
+--- QUESTION 2: DYNAMIC CONNECTED COMPONENTS IN A GRID ---
+Island count updates:
+  Step 1: Add Land at (0, 0) -> Connected Islands: 1
+  Step 2: Add Land at (0, 1) -> Connected Islands: 1
+  Step 3: Add Land at (1, 2) -> Connected Islands: 2
+  Step 4: Add Land at (2, 1) -> Connected Islands: 3
+  Step 5: Add Land at (1, 1) -> Connected Islands: 1

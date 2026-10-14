@@ -1,0 +1,5 @@
+--- QUESTION 3: MAX WEIGHT COMPONENT WITH SIZE CONSTRAINTS ---
+Initial Max Weight (Size <= 3): 30
+After adding Edge (1, 2) -> Max Weight (Size <= 3): 30
+After adding Edge (2, 3) -> Max Weight (Size <= 3): 45
+After adding Edge (3, 4) -> Max Weight (Size <= 3): 25

@@ -1,0 +1,6 @@
+--- QUESTION 1: ONLINE GRAPH-BIPARTITENESS TESTING ---
+Edge (1, 2): Added successfully (Graph remains Bipartite)
+Edge (2, 3): Added successfully (Graph remains Bipartite)
+Edge (3, 4): Added successfully (Graph remains Bipartite)
+Edge (4, 1): Added successfully (Graph remains Bipartite)
+Edge (1, 3): REJECTED! Violates Bipartiteness (Creates Odd Cycle)

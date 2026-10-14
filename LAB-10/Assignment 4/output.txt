@@ -1,0 +1,6 @@
+--- QUESTION 4: REVERSE TIME-STEP DSU APPLICATION ---
+Max Component Weight Sum after each vertex deletion:
+  After Deleting Vertex P[1] = 1: Max Sum = 90
+  After Deleting Vertex P[2] = 3: Max Sum = 40
+  After Deleting Vertex P[3] = 2: Max Sum = 40
+  After Deleting Vertex P[4] = 4: Max Sum = 0
